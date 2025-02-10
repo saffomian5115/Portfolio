@@ -4,92 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
-    <link rel="icon" href="images/portfolio.svg">
+    <title>Resume</title>
+    <link rel="icon" href="images/icon/resume.svg">
 
 </head>
 <body>
-
     <header>
         <div class="navbar">
             <div class="sarfraz">
                 <div class="logo">
-                    <a href="index.html#"></a>
+                    <a href="index.html">
+                        <img src="images/icon/resume.svg" alt="portfolio" title="Portfolio Logo.">
+                    </a>
                 </div>
                 <div class="name">
-                    <h2>Sarfraz</h2>
-                </div>
-            </div>
-            <div class="skill">
-                <a class="skillbtn" href="skill.html">Skills</a>
-                <div class="skillContent">
-                    <a href="skill.html#c1">C++</a>
-                    <a href="skill.html#c2">DSA</a>
-                    <a href="skill.html#c3">SQL</a>
-                    <a href="skill.html#c4">HTML</a>
-                    <a href="skill.html#c5">CSS</a>
-                    <a href="skill.html#c6">JavaScript</a>
-                </div>
-            </div>
-            <div class="project">
-                <a href="project.html">Projects
-                </a>
-                <div class="projectContent">
-                    <a href="project.html#c1">Clones</a>
-                    <a href="project.html#c2">Program</a>
-                    <a href="project.html#c3">Apps</a>
-                    <a href="project.html#c4">Software</a>
+                    <h1>Resume</h1>
                 </div>
             </div>
             <div class="education">
-                <a href="education.html">Education</a>
-                <div class="educationContent">
-                    <a href="education.html#c1">Metric</a>
-                    <a href="education.html#c2">Inter</a>
-                    <a href="education.html#c3">Bechler</a>
+                <a href="education.html" target="_parent">Education</a>
+                <div class="educationContent transition1">
+                    <a href="education.html#c1" target="_blank">Metric</a>
+                    <a href="education.html#c2" target="_blank">Inter</a>
+                    <a href="education.html#c3" target="_blank">Bechler</a>
+                   
                 </div>
             </div>
-            <div class="cv">
-                <a href="cv.html">CV</a>
-                <div class="cvContent">
-                    <a href="#c4">
+            <div class="skill">
+                <a href="skill.html" target="_parent" >Skills</a>
+                <div class="skillContent transition1">
+                    <a href="skill.html#c1" target="_blank">Programming Languages</a>
+                    <a href="skill.html#c2" target="_blank">Web Development</a>
+                    <a href="skill.html#c3" target="_blank">databases</a>
+                    <a href="skill.html#c4" target="_blank">Software & Tools</a>
+                    <a href="skill.html#c5" target="_blank">Soft Skills</a>                   
+                </div>
+            </div>
+            <div class="project transition1">
+                <a href="project.html" target="_parent">Projects</a>
+                <div class="projectContent ">
+                    <a href="project.html#c1" target="_blank">WebSite</a>
+                    <a href="project.html#c2" target="_blank">Program</a>
+                    <a href="project.html#c3" target="_blank">Apps</a>
+                    <a href="project.html#c4" target="_blank">Software</a>
+                </div>
+            </div>
+            <div class="certificate transition1">
+                <a href="Certificate.html" target="_parent">Certificate's</a>
+                <div class="certificateContent">
+                    <a href="Certificate.html#c1" target="_blank">Web Development</a>
+                    <a href="Certificate.html#c2" target="_blank">SQL Certificate</a>
+                    <a href="Certificate.html#c3" target="_blank">MS Office</a>
+                </div>
+            </div>
+            
+            <div class="contactus transition1">
+                <a href="">Contact Us</a>
+                <div class="contactusContent">
+                    <a href="https://www.linkedin.com/in/saffomian5115" target="_blank">Linkedin</a>
+                    <a href="mailto:saffomian5115@gmail.com" target="_blank">Gmail</a>
+                    <a href="https://www.github.com/saffomian5115" target="_blank">Git Hub</a>
+                    <a href="https://www.instagram.com/saffomian5115" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <div class="resume">
+                <a href="#" >Resume</a>
+                <div class="resumeContent transition1">
+                    <a href="resume.html" target="_self">
                         <img src="images/sarfraz.png" height="400">
                     </a>
-                </div>
-            </div>
-            <div class="contactus">
-                <a href="#c5">Contact Us</a>
-                <div class="contactusContent">
-                    <a href="https://www.linkedin/in/saffomian5115">Linkedin</a>
-                    <a href="https://www.gmail.com/mailto:saffomian5115">Gmail</a>
-                    <a href="https://www.github.com/saffomian5115">Git Hub</a>
-                    <a href="https://www.instagram.com/saffomian5115">Instagram</a>
-
                 </div>
             </div>
 
         </div>
     </header>
 
-    <section>
+<main>
 
-    </section>
+    <div class="fixbtn">
+        <a href="#">
+            <img src="images/icon/circle-arrow-up-solid.svg" width="30px">
+        </a>
+    </div>
 
-    <section>
+   <div class="resumediv">
+    <label class="resumelbl">Downlaod resume as pdf:</label>
+    <a class="resumebtn"  href="data/Sarfraz CV.pdf" download="">Downlaod</a><br>
+    <img src="images/sarfraz.png" alt="Resume img" usemap="#image-map">
+    <map name="image-map">
+        <area target="_blank" alt="Click to see my Profile" title="Click to see my Profile" href="intro.html" coords="32,29,208,243" shape="rect">
+        <area target="_parent" alt="Click to see my Profile" title="Click to see my Profile" href="index.html" coords="623,145,303,58" shape="rect">
+        <area target="_blank" alt="Click to see my Skills" title="Click to see my Skills" href="skill.html" coords="264,390,768,863" shape="rect">
+        <area target="_parent" alt="Click to see my Profile" title="Click to see my Profile" href="index.html" coords="266,237,764,380" shape="rect">
+        <area target="_blank" alt="Soft Skills" title="Soft Skills" href="skill.html#c5" coords="23,551,222,839" shape="rect">
+        <area target="_blank" alt="Certificates" title="Certificates" href="certificate.html" coords="251,1073,22,950" shape="rect">
+        <area target="_blank" alt="Click to see my Education" title="Click to see my Education" href="education.html" coords="266,896,769,1044" shape="rect">
+        <area target="_parent" alt="Contact Us" title="Contact Us" href="index.html#c5" coords="17,284,226,540" shape="rect">
+    </map>
+</div>
 
-    </section>
-    <section>
-
-    </section>
-    <section>
-
-    </section>
-    <section>
-
-    </section>
+   
+</main>
     <footer>
         <p>&copySarfraz Developer (saffomian5115)</p>
     </footer>
+
+    <script></script>
     
 </body>
 </html>
