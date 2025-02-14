@@ -307,6 +307,70 @@ main {
        box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
 }
 
+    /* Projectsection */
+
+    .clones{
+        text-align: center;
+    }
+    
+    .shade:hover {
+        transform: scale(1);
+        box-shadow: 0 0 5px #0ff,0 0 10px #0ff,0 0 20px #0ff;
+        border: 2px solid #0ff;
+
+    }
+
+    .clones h1{
+        padding: 4%;
+        display: block;
+    }
+
+    .projectbox1 {
+        display: inline-block;
+        margin: 1%;
+        width: 30%;
+        background-color: transparent;
+    }
+
+    .shade img {
+        width: 100%;
+
+    }
+    .imgdiv {
+        transform: scale(0.97);
+        transition: 0.3s;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .projectbox2 {
+        display: inline-block;
+        margin: 1%;
+        width: 30%;
+        background-color: transparent;
+    }
+
+.imgdiv2 {
+    transform: scale(0.97);
+    transition: 0.3s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.imgdiv3 {
+    transform: scale(0.97);
+    transition: 0.3s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.projectbox3 {
+    display: inline-block;
+    margin: 1%;
+    width: 80%;
+    background-color: transparent;
+}
+
+
   /* Resume page */
 
   .resumediv {
