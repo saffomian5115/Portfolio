@@ -159,7 +159,7 @@ main {
    }
 
     .sectionimg {
-        width: 300px;
+        width: 20vw;
         border-radius: 50px;
         box-shadow: 0 0 20px #0ff;
         position: relative;
