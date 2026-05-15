@@ -1,0 +1,166 @@
+=====================================================
+  SARFRAZ PORTFOLIO — TO DO LIST
+  Full Stack Developer | Python • React • Laravel
+=====================================================
+
+FOLDER STRUCTURE:
+─────────────────
+sarfraz-portfolio/
+├── index.html              ← Home / Hero page
+├── pages/
+│   ├── skills.html         
+│   ├── projects.html       ← Projects page
+│   ├── about.html          ← About Me page
+│   └── contact.html        ← Contact page
+├── css/
+│   ├── style.css          
+│   ├── navbar.css          
+│   ├── footer.css          ← Footer styles (shared)
+│   ├── hero.css            
+│   ├── skills.css          ← Skills page styles
+│   ├── projects.css        ← Projects page styles
+│   ├── about.css           ← About page styles
+│   └── contact.css         ← Contact page styles
+├── js/
+│   ├── main.js             ← Global JS (active link, scroll, etc.)
+│   └── navbar.js           
+└── imgs/                   ← Photos, project screenshots, icons
+
+
+=====================================================
+  MODULE 1 — GLOBAL SETUP  (style.css + shared)
+=====================================================
+[✔️] CSS Variables define karna:
+    - Gradient color (accent)
+    - Dark background colors
+    - Font family
+    - Spacing scale
+[✔️] CSS Reset / base styles
+[✔️] Google Fonts import (Poppins)
+[✔️] Scrollbar custom styling
+[✔️] Selection highlight color
+
+=====================================================
+  MODULE 2 — NAVBAR  (navbar.css + navbar.js)
+=====================================================
+[✔️] Fixed top navbar
+[✔️] Logo — "SARFRAZ" text
+[✔️] Nav links: Home | Skills | Projects | About | Contact
+[✔️] Active link highlight (gradient color)
+[✔️] "Hire Me" CTA button (gradient)
+[✔️] Hover underline animation on links
+[✔️] Mobile hamburger menu (responsive)
+[✔️] Smooth scroll / page navigation working
+
+=====================================================
+  MODULE 3 — HERO PAGE  (index.html + hero.css)
+=====================================================
+[✔️] Dark background with subtle angled shapes
+[✔️] Left side:
+    - "Hi I am" greeting
+    - Name: Sarfraz
+    - Title: Full Stack Developer (gradient text)
+    - Sub-title: Python • React • Laravel
+    - LinkedIn + GitHub social icon buttons
+    - "Hire Me" button (gradient filled)
+    - "Download CV" button (outline)
+    - Stats card: 1+ Exp | 10+ Projects | 4+ Clients
+[✔️] Right side:
+    - Circular background shape
+    - Photo placeholder (imgs/profile.jpg when added)
+[✔️] Entrance animations (fade up on load)
+[✔️] Fully responsive
+
+=====================================================
+  MODULE 4 — SKILLS PAGE  (skills.html + skills.css)
+=====================================================
+[✔️] Page header: "My Skills"
+[✔️] Technical skills section:
+    - Frontend: React, HTML, CSS, JavaScript
+    - Backend: Python (Django/Flask), Laravel (PHP)
+    - Database: MySQL, PostgreSQL, MongoDB
+    - Tools: Git, GitHub, VS Code, Postman
+[✔️] Each skill shown as:
+    - Skill name + icon
+    - Progress bar with gradient fill
+    - Percentage label
+[✔️] Skills grouped by category (cards layout)
+[✔️] Animate progress bars on scroll
+[✔️] Responsive grid layout
+
+=====================================================
+  MODULE 5 — PROJECTS PAGE  (projects.html + projects.css)
+=====================================================
+[ ] Page header: "My Projects"
+[ ] Filter buttons: All | Python | React | Laravel
+[ ] Project cards (10 total — placeholders for now):
+    - Project thumbnail image
+    - Project name
+    - Short description
+    - Tech stack tags
+    - "Live Demo" button
+    - "GitHub" button
+[ ] Hover effect on cards (lift + overlay)
+[ ] Filter animation (show/hide by category)
+[ ] Responsive grid (3 col → 2 col → 1 col)
+
+=====================================================
+  MODULE 6 — ABOUT PAGE  (about.html + about.css)
+=====================================================
+[ ] Page header: "About Me"
+[ ] Left side:
+    - Profile photo placeholder
+    - Social links below
+[ ] Right side:
+    - Short bio paragraph (who I am)
+    - Key info: Name, Role, Location, Email
+    - Experience, Projects, Clients counters
+    - "Download CV" button
+[ ] Timeline section:
+    - Education history
+    - Work experience (1 year)
+[ ] Responsive layout
+
+=====================================================
+  MODULE 7 — CONTACT PAGE  (contact.html + contact.css)
+=====================================================
+[ ] Page header: "Contact Me"
+[ ] Left side — contact info cards:
+    - Email address
+    - LinkedIn profile link
+    - GitHub profile link
+    - Location (optional)
+[ ] Right side — contact form:
+    - Name field
+    - Email field
+    - Subject field
+    - Message textarea
+    - "Send Message" button (gradient)
+[ ] Form basic validation (JS)
+[ ] Hover/focus styles on inputs
+[ ] Responsive layout
+
+=====================================================
+  MODULE 8 — FOOTER  (footer.css — shared all pages)
+=====================================================
+[ ] Dark background
+[ ] Logo left
+[ ] Copyright center
+[ ] Social links right (LinkedIn, GitHub)
+[ ] Thin top border with gradient
+
+=====================================================
+  MODULE 9 — RESPONSIVE & POLISH  (all files)
+=====================================================
+[ ] Test all pages on mobile (< 768px)
+[ ] Test on tablet (768px – 1024px)
+[ ] Hamburger menu working on all pages
+[ ] Active nav link correct on each page
+[ ] Smooth page transitions
+[ ] All animations performance check
+[ ] Final color/gradient consistency check
+
+=====================================================
+  TOTAL: 9 Modules | 5 Pages | ~15 Files
+  START: Module 1 → Global Setup
+=====================================================

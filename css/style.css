@@ -1,0 +1,213 @@
+/* ============================================================
+   SARFRAZ PORTFOLIO — GLOBAL STYLES
+   style.css — Variables, Reset, Base, Typography, Utilities
+   ============================================================ */
+
+/* ── GOOGLE FONTS ─────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ── CSS VARIABLES ────────────────────────────────────────── */
+:root {
+
+  /* Gradient — main accent */
+  --gradient:         linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+  --gradient-hover:   linear-gradient(135deg, #1d4ed8 0%, #0891b2 100%);
+  --gradient-soft:    linear-gradient(135deg, rgba(37,99,235,0.15) 0%, rgba(6,182,212,0.15) 100%);
+  --gradient-text:    linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+
+  /* Background shades */
+  --bg-primary:   #111111;
+  --bg-secondary: #1a1a1a;
+  --bg-card:      #222222;
+  --bg-card2:     #2a2a2a;
+
+  /* Text colors */
+  --text-white:   #f5f5f5;
+  --text-gray:    #aaaaaa;
+  --text-muted:   #666666;
+
+  /* Border */
+  --border:       rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(37, 99, 235, 0.4);
+
+  /* Accent solid */
+  --blue:         #2563eb;
+  --cyan:         #06b6d4;
+
+  /* Spacing */
+  --section-pad:  100px 60px;
+  --card-radius:  14px;
+  --btn-radius:   8px;
+
+  /* Font */
+  --font:         'Poppins', sans-serif;
+
+  /* Transitions */
+  --trans:        all 0.25s ease;
+  --trans-slow:   all 0.4s ease;
+
+  /* Shadow */
+  --shadow:       0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-blue:  0 4px 24px rgba(37, 99, 235, 0.25);
+}
+
+/* ── RESET ────────────────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg-primary);
+  color: var(--text-white);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { text-decoration: none; color: inherit; }
+ul, ol { list-style: none; }
+button { cursor: pointer; font-family: var(--font); border: none; outline: none; background: none; }
+input, textarea { font-family: var(--font); outline: none; }
+
+/* ── SCROLLBAR ────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--gradient); border-radius: 10px; }
+
+/* ── TEXT SELECTION ───────────────────────────────────────── */
+::selection { background: rgba(37, 99, 235, 0.35); color: var(--text-white); }
+
+/* ── GRADIENT TEXT UTILITY ────────────────────────────────── */
+.gradient-text {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── GRADIENT BUTTON ──────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 32px;
+  background: var(--gradient);
+  color: #fff;
+  border-radius: var(--btn-radius);
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: var(--trans);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-blue); filter: brightness(1.1); }
+
+/* ── OUTLINE BUTTON ───────────────────────────────────────── */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 32px;
+  background: transparent;
+  color: var(--text-white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--btn-radius);
+  font-size: 0.92rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  transition: var(--trans);
+  cursor: pointer;
+}
+.btn-outline:hover { border-color: var(--blue); background: rgba(37,99,235,0.08); transform: translateY(-2px); }
+
+/* ── SECTION HEADER ───────────────────────────────────────── */
+.section-header { text-align: center; margin-bottom: 60px; }
+.section-header .tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: var(--gradient-soft);
+  border: 1px solid var(--border-hover);
+  border-radius: 100px;
+  padding: 6px 18px;
+  margin-bottom: 16px;
+  color: var(--cyan);
+}
+.section-header h2 {
+  font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+.section-header h2 span {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.section-header p {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: var(--text-gray);
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── CARD BASE ────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--card-radius);
+  transition: var(--trans);
+}
+.card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+/* ── LAYOUT HELPERS ───────────────────────────────────────── */
+.page-wrapper { padding-top: 76px; min-height: 100vh; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 60px; }
+.divider { height: 1px; background: var(--border); }
+
+/* ── ANIMATIONS ───────────────────────────────────────────── */
+@keyframes fadeUp   { from { opacity:0; transform:translateY(28px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeIn   { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeLeft { from { opacity:0; transform:translateX(28px); } to { opacity:1; transform:translateX(0); } }
+@keyframes scaleIn  { from { opacity:0; transform:scale(0.94); } to { opacity:1; transform:scale(1); } }
+
+.anim-fade-up   { animation: fadeUp   0.6s ease both; }
+.anim-fade-in   { animation: fadeIn   0.6s ease both; }
+.anim-fade-left { animation: fadeLeft 0.6s ease both; }
+.anim-scale-in  { animation: scaleIn  0.6s ease both; }
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
+.delay-6 { animation-delay: 0.6s; }
+
+/* ── RESPONSIVE ───────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .container { padding: 0 40px; }
+}
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+  .section-header { margin-bottom: 40px; }
+}
