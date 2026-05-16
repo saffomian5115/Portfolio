@@ -26,7 +26,7 @@
 }
 
 /* ── LOGO ─────────────────────────────────────────────────── */
-.nav-logo {
+.nav-logo-text {
   font-size: 1.45rem;
   font-weight: 800;
   letter-spacing: 1px;
@@ -36,6 +36,17 @@
   background-clip: text;
   text-decoration: none;
   flex-shrink: 0;
+}
+
+.nav-logo {
+  width: 50px;
+  filter: invert(1) brightness(2);
+}
+
+.nav-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
 
 /* ── NAV LINKS ────────────────────────────────────────────── */
@@ -216,3 +227,4 @@
   .nav-cta   { display: none; }
   .nav-hamburger { display: flex; }
 }
+

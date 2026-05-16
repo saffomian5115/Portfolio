@@ -9,7 +9,7 @@ sarfraz-portfolio/
 ├── index.html              ← Home / Hero page
 ├── pages/
 │   ├── skills.html         
-│   ├── projects.html       ← Projects page
+│   ├── projects.html       
 │   ├── about.html          ← About Me page
 │   └── contact.html        ← Contact page
 ├── css/
@@ -17,8 +17,8 @@ sarfraz-portfolio/
 │   ├── navbar.css          
 │   ├── footer.css          ← Footer styles (shared)
 │   ├── hero.css            
-│   ├── skills.css          ← Skills page styles
-│   ├── projects.css        ← Projects page styles
+│   ├── skills.css          
+│   ├── projects.css        
 │   ├── about.css           ← About page styles
 │   └── contact.css         ← Contact page styles
 ├── js/
@@ -91,18 +91,18 @@ sarfraz-portfolio/
 =====================================================
   MODULE 5 — PROJECTS PAGE  (projects.html + projects.css)
 =====================================================
-[ ] Page header: "My Projects"
-[ ] Filter buttons: All | Python | React | Laravel
-[ ] Project cards (10 total — placeholders for now):
+[✔️] Page header: "My Projects"
+[✔️] Filter buttons: All | Python | React | Laravel
+[✔️] Project cards (10 total — placeholders for now):
     - Project thumbnail image
     - Project name
     - Short description
     - Tech stack tags
     - "Live Demo" button
     - "GitHub" button
-[ ] Hover effect on cards (lift + overlay)
-[ ] Filter animation (show/hide by category)
-[ ] Responsive grid (3 col → 2 col → 1 col)
+[✔️] Hover effect on cards (lift + overlay)
+[✔️] Filter animation (show/hide by category)
+[✔️] Responsive grid (3 col → 2 col → 1 col)
 
 =====================================================
   MODULE 6 — ABOUT PAGE  (about.html + about.css)

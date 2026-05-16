@@ -221,26 +221,15 @@
   height: calc(100vh - 76px);
 }
 
-/* large dark circle (image 1 style) */
-.hero-photo-circle {
-  position: absolute;
-  bottom: -60px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 420px;
-  height: 420px;
-  background: rgba(255,255,255,0.03);
-  border-radius: 50%;
-  border: 1px solid var(--border);
-}
+
 
 /* photo container */
 .hero-photo-wrap {
   position: relative;
   z-index: 2;
-  width: 340px;
-  height: calc(100vh - 180px);
-  max-height: 580px;
+  width: 700px;
+  height: calc(100vh - 30px);
+  max-height: 900px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
