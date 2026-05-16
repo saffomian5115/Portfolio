@@ -10,7 +10,7 @@ sarfraz-portfolio/
 ├── pages/
 │   ├── skills.html         
 │   ├── projects.html       
-│   ├── about.html          ← About Me page
+│   ├── about.html          
 │   └── contact.html        ← Contact page
 ├── css/
 │   ├── style.css          
@@ -19,7 +19,7 @@ sarfraz-portfolio/
 │   ├── hero.css            
 │   ├── skills.css          
 │   ├── projects.css        
-│   ├── about.css           ← About page styles
+│   ├── about.css           
 │   └── contact.css         ← Contact page styles
 ├── js/
 │   ├── main.js             ← Global JS (active link, scroll, etc.)
@@ -107,19 +107,19 @@ sarfraz-portfolio/
 =====================================================
   MODULE 6 — ABOUT PAGE  (about.html + about.css)
 =====================================================
-[ ] Page header: "About Me"
-[ ] Left side:
+[✔️] Page header: "About Me"
+[✔️] Left side:
     - Profile photo placeholder
     - Social links below
-[ ] Right side:
+[✔️] Right side:
     - Short bio paragraph (who I am)
     - Key info: Name, Role, Location, Email
     - Experience, Projects, Clients counters
     - "Download CV" button
-[ ] Timeline section:
+[✔️] Timeline section:
     - Education history
     - Work experience (1 year)
-[ ] Responsive layout
+[✔️] Responsive layout
 
 =====================================================
   MODULE 7 — CONTACT PAGE  (contact.html + contact.css)
