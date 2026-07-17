@@ -1,32 +1,19 @@
 /* ============================================================
    MAIN.JS — Global JS
-   - Footer injection (all pages)
+   - Footer injection
    - Scroll-to-top button
    - Page load fade-in
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ── FOOTER HTML ─────────────────────────────────────────
-     Detect if we're on index.html (root) or a sub-page
-     to set correct relative paths for links & assets.
-  ─────────────────────────────────────────────────────── */
-  const isSubPage = window.location.pathname.includes('/pages/');
-  const root      = isSubPage ? '../' : '';
-  const pages     = isSubPage ? ''    : 'pages/';
-
+  /* ── FOOTER HTML (single-page) ──────────────────────────── */
   const footerHTML = `
     <div class="footer-inner">
-
-      
-      
-
-     
       <div class="footer-bottom">
         <p class="footer-copy">© 2025 <span>Sarfraz</span>. All rights reserved.</p>
         <p class="footer-made">Made with <span class="heart">♥</span> in Punjab, Pakistan</p>
       </div>
-
     </div>
   `;
 
